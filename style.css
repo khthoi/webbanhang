@@ -27,8 +27,16 @@
 .row{
     justify-content: center;
 }
+#slide-img1, #slide-img2{
+    width: 380px;
+    height: 370px;
+    border-radius: 50%;
+}
 .rimg{
-    border-radius: 100%;
+    width: 200px;
+    height: 170px;
+    margin: 6px 5px 6px 5px;
+    border-radius: 2%;
 }
 .card:hover{
     background-color: rgb(45, 39, 60);
@@ -44,6 +52,14 @@
     background-color: rgb(245, 255, 241);
     border-radius: 8px;
     display: flex;   
+}
+#part2-img{
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+}
+#part2-img:hover{
+
 }
 .leftside{
     display: block;
@@ -186,12 +202,13 @@
 .con3 a{
     padding: 5px;
     border-radius: 50%;
-    background-color: rgb(244, 238, 233);
     margin: 0 10px 0 10px;
     text-decoration: none;
 }
 .con3 a:hover{
     padding: 10px;
     transition: 0.4s ease-in-out;
-    background-color: rgb(250, 224, 190);
 }
+.zalo-icon{background-color: rgb(155, 243, 243);}
+.facebook-icon{background-color: rgb(196, 196, 241);}
+.youtube-icon{background-color: rgb(239, 198, 198);}

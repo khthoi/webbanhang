@@ -25,21 +25,3 @@ const slides = document.querySelector('.p1');
         });
       }
     });
-    // Khởi tạo bản đồ
-    var map = L.map('map').setView([51.505, -0.09], 13); // Đặt tọa độ ban đầu và mức zoom
-
-    // Thêm layer bản đồ nền từ OpenStreetMap
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-    }).addTo(map);
-
-    // Tạo minimap
-    var miniMap = new L.Control.MiniMap(
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 13,
-            attribution: 'Minimap © OpenStreetMap contributors'
-        }), {
-            toggleDisplay: true,
-            minimized: false
-        }
-    ).addTo(map);

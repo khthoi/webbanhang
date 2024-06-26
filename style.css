@@ -1,0 +1,146 @@
+.main{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+.nav-item{ 
+    padding-left: 50px;
+}
+.nav-item .nav-link:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease-in-out;
+}
+.container-fluid .navbar-brand{
+    font-size: 22px;
+    color: rgb(192, 234, 178);
+    transition: 0.6s ease-in-out;
+}
+.part1{
+    text-align: center;
+}
+.card{
+    margin: 20px;
+}
+.row{
+    justify-content: center;
+}
+.rimg{
+    border-radius: 100%;
+}
+.card:hover{
+    background-color: rgb(45, 39, 60);
+    color: white;
+    transition: 0.2s ease-in-out;
+    cursor:pointer;
+}
+.part2{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(251, 245, 243);
+    border-radius: 8px;
+    display: flex;   
+}
+.leftside{
+    display: block;
+}
+.leftside h1{
+    padding-top: 30px;
+}
+.leftside p{
+    padding-top: 15px;
+}
+.rightside{
+    padding-bottom: 15px;
+    margin-left: 30px;
+}
+.rightside img{
+    background-color: rgb(228, 244, 255);
+    padding: 15px;
+    width: 600px;
+    height: 400px;
+}
+.prg{
+    margin-bottom: 15px;
+    display: flex;
+}
+.prg i{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 251, 211);
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.part3{
+    text-align: center;
+}
+.aboutprg{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    border-radius: 13px;
+    background-color: rgb(250, 244, 237);
+}
+.aboutprg p{
+    padding: 20px 40px 20px 40px;
+    font-size: larger;
+    text-align: justify;
+
+}
+.part4 .row{
+    margin-top: 50px;
+}
+.row .phan2 .card-body {
+    display: flex;
+    flex-direction: column;
+}
+.row .phan2 .btn{
+    width: 80px;
+    margin-bottom: 5px;
+    margin-top: auto;
+}
+.row .card{
+    align-items: center;
+    justify-content: center;
+}
+.row .phan2 img{
+    padding-top: 10px;
+    border-radius: 19px;
+    width: 300px;
+    height: 300px;
+}
+.row .phan2:hover{
+    background-color: rgb(6, 93, 62);
+}
+.row .phan2 .card-title{
+    font-size: 23px;
+    font-style: bold;
+}
+.part5 h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.floatbox{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.floatbox-child{
+    box-shadow: 2px 5px 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(250, 243, 234);
+    height: 180px;
+    width: 400px;
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+.floatbox-child i{
+    color: rgb(216, 149, 66);
+    font-size: 40px;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đông Y Trần Tấn Phước</title>
+    <link rel="icon" type="image/x-icon" href="Src img\part2-img.jpg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -41,8 +42,8 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" type="search" id="SearchInput" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" id="SearchButton">Search</button>
             </form>
           </div>
         </div>
@@ -88,46 +89,46 @@
             </button>
           </div>
     </div>
-    <div class="part1 mt-5 container" id="scroll1">
+    <div class="part1 mt-5 container-fluid" id="scroll1">
         <div class="pheader mb-5">
             <h1>Đông Y Cổ Truyền</h1>
             <p>Chăm sóc sức khoẻ với Y học Cổ Truyền</p>
         </div>
-        <div class="row">
-        <div class="card col-5 col-xl-2">
-            <img src="Src img\part1 - img1.png" class="card-img-top rimg" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Châm cứu bấm huyệt</h5>
-              <p class="card-text">Giảm đau, cân bằng, thư giãn, khỏe mạnh.</p>
+        <div class="row gx-2">
+          <div class="card col-5 col-xl-2">
+              <img src="Src img\part1 - img1.png" class="card-img-top rimg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Châm cứu bấm huyệt</h5>
+                <p class="card-text">Giảm đau, cân bằng, thư giãn, khỏe mạnh.</p>
+              </div>
             </div>
-          </div>
-        <div class="card col-5 col-xl-2">
-            <img src="Src img\anhthuoc8.png" class="card-img-top rimg" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Thuốc Đông Y</h5>
-              <p class="card-text" style="margin-top: 30px;">Tự nhiên, an toàn, hiệu quả, cân bằng sức khỏe.</p>
+          <div class="card col-5 col-xl-2">
+              <img src="Src img\anhthuoc8.png" class="card-img-top rimg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Thuốc Đông Y</h5>
+                <p class="card-text" style="margin-top: 30px;">Tự nhiên, an toàn, hiệu quả, cân bằng sức khỏe.</p>
+              </div>
             </div>
-          </div>
-        <div class="card col-5 col-xl-2">
-            <img src="Src img\part1 - img3.jpg" class="card-img-top rimg" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Chăm sóc sức khỏe</h5>
-              <p class="card-text">Phòng ngừa, bảo vệ, nâng cao, sống vui khỏe mạnh.</p>
+          <div class="card col-5 col-xl-2">
+              <img src="Src img\part1 - img3.jpg" class="card-img-top rimg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chăm sóc sức khỏe</h5>
+                <p class="card-text">Phòng ngừa, bảo vệ, nâng cao, sống vui khỏe mạnh.</p>
+              </div>
             </div>
-          </div>
-        <div class="card col-5 col-xl-2">
-            <img src="Src img\part1 - img2.jpg" class="card-img-top rimg" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Bắt mạch, khám bệnh</h5>
-              <p class="card-text">Chính xác, tận tâm, chuyên nghiệp, hiệu quả, đáng tin cậy.</p>
+          <div class="card col-5 col-xl-2">
+              <img src="Src img\part1 - img2.jpg" class="card-img-top rimg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bắt mạch, khám bệnh</h5>
+                <p class="card-text">Chính xác, tận tâm, chuyên nghiệp, hiệu quả, đáng tin cậy.</p>
+              </div>
             </div>
-          </div>
         </div>
     </div>
     <div class="container-fluid part2 mt-5" id="scroll2">
         <div class="leftside">
-            <h1>Nhà Thuốc đông y Trần Tấn Phước</h1>
-            <p>Dịch vụ châm cứu bấm huyệt và Đông Y chuyên nghiệp</p>
+            <h1>Đông Y Trần Tấn Phước</h1>
+            <p>Châm cứu - bấm huyệt và các sản phẩm Đông Y chất lượng</p><br>
             <div class="prg">
               <i class='bx bx-purchase-tag'></i>
                 <p>Ưu đãi hấp dẫn cho khách hàng thân thiết</p>
@@ -320,26 +321,32 @@
           <h1 style="text-align: center;">Liên hệ với chúng tôi</h1>
           <h4>Vui lòng để lại thông tin để được tư vấn nhanh nhất</h4>
           <br><br><br>
-          <div class="destination">
-            <i class='bx bx-map'></i><p>Thanh Quang - Cộng Hoà - Phù Linh - Sóc Sơn - Hà Nội</p><br>
-            <i class='bx bx-phone'></i><p>0976552723</p>
+            <div class="destination">
+              <div class="icon-text">
+                  <i class='bx bx-map'></i>
+                  <p>Thanh Quang - Cộng Hoà - Phù Linh - Sóc Sơn - Hà Nội</p>
+              </div>
+              <div class="icon-text">
+                  <i class='bx bx-phone'></i>
+                  <p>0976552723</p>
+              </div>
+              <div class="con3">
+                <a href="https://www.facebook.com/phuoc.trantan.1" class="icon-link facebook-icon" target="_blank" style="color: blue;">
+                  <i class='bx bxl-facebook'></i>
+              </a>
+              <a href="https://www.youtube.com/@MrPhuoctran" class="icon-link youtube-icon" target="_blank" style="color: red;">
+                  <i class='bx bxl-youtube'></i>
+              </a>
+              <a href="https://zalo.me/0976552723" class="icon-link zalo-icon" target="_blank" style="color: black;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.49 10.272v-.45h1.347v6.322h-.77a.576.576 0 0 1-.577-.573v.001a3.27 3.27 0 0 1-1.938.632a3.284 3.284 0 0 1-3.284-3.282a3.284 3.284 0 0 1 3.284-3.282a3.27 3.27 0 0 1 1.937.632zM6.919 7.79v.205c0 .382-.051.694-.3 1.06l-.03.034a8 8 0 0 0-.242.285L2.024 14.8h4.895v.768a.576.576 0 0 1-.577.576H0v-.362c0-.443.11-.641.25-.847L4.858 9.23H.192V7.79zm8.551 8.354a.48.48 0 0 1-.48-.48V7.79h1.441v8.354zM20.693 9.6a3.306 3.306 0 1 1 .002 6.612a3.306 3.306 0 0 1-.002-6.612m-10.14 5.253a1.932 1.932 0 1 0 0-3.863a1.932 1.932 0 0 0 0 3.863m10.14-.003a1.945 1.945 0 1 0 0-3.89a1.945 1.945 0 0 0 0 3.89"/></svg>
+              </a>
+              </div>
           </div>
         </div>
         <div class="con2">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d929.3764758921383!2d105.84993268441627!3d21.29101723605475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1719370068412!5m2!1svi!2s" 
           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-      </div>
-      <div class="con3">
-        <a href="https://www.facebook.com/phuoc.trantan.1" class="icon-link facebook-icon" target="_blank" style="color: blue;">
-          <i class='bx bxl-facebook'></i>
-      </a>
-      <a href="https://www.youtube.com/@MrPhuoctran" class="icon-link youtube-icon" target="_blank" style="color: red;">
-          <i class='bx bxl-youtube'></i>
-      </a>
-      <a href="https://zalo.me/0976552723" class="icon-link zalo-icon" target="_blank" style="color: black;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.49 10.272v-.45h1.347v6.322h-.77a.576.576 0 0 1-.577-.573v.001a3.27 3.27 0 0 1-1.938.632a3.284 3.284 0 0 1-3.284-3.282a3.284 3.284 0 0 1 3.284-3.282a3.27 3.27 0 0 1 1.937.632zM6.919 7.79v.205c0 .382-.051.694-.3 1.06l-.03.034a8 8 0 0 0-.242.285L2.024 14.8h4.895v.768a.576.576 0 0 1-.577.576H0v-.362c0-.443.11-.641.25-.847L4.858 9.23H.192V7.79zm8.551 8.354a.48.48 0 0 1-.48-.48V7.79h1.441v8.354zM20.693 9.6a3.306 3.306 0 1 1 .002 6.612a3.306 3.306 0 0 1-.002-6.612m-10.14 5.253a1.932 1.932 0 1 0 0-3.863a1.932 1.932 0 0 0 0 3.863m10.14-.003a1.945 1.945 0 1 0 0-3.89a1.945 1.945 0 0 0 0 3.89"/></svg>
-      </a>
       </div>
     </div>
   </div>

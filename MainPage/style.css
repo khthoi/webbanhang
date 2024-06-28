@@ -132,6 +132,10 @@
     font-size: 23px;
     font-style: bold;
 }
+.part5{
+    justify-content: center;
+    align-items: center;
+}
 .part5 h1{
     text-align: center;
     margin-top: 50px;
@@ -251,12 +255,15 @@
         margin-bottom: 30px;
     }
     .floatbox{
-        display: contents;
+        flex-direction: column;
+
     }
     .floatbox-child{
-        margin: 30px 40px 30px 40px;
+        margin: 30px 0px 30px 0px;
     }
     .bao{
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
     .con{

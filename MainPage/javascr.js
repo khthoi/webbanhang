@@ -5,3 +5,4 @@ document.getElementById('SearchButton').addEventListener('click', function() {
         window.open(googleSearchUrl, '_blank');
     }
 });
+

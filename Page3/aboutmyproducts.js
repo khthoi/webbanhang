@@ -6,3 +6,17 @@ document.getElementById('SearchButton').addEventListener('click', function() {
     }
 });
 
+function scrollToElementFromHash() {
+    const id = window.location.hash.substring(1);
+    if (id) {
+        const element = document.getElementById(id);
+        if (element) {
+            const elementYPosition = element.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({
+                top: elementYPosition, behavior: 'smooth'
+            });
+        }
+    }
+}
+
+window.onload = scrollToElementFromHash;

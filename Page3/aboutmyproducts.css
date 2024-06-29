@@ -23,3 +23,15 @@
     width: 404px;
     height: 290px;
 }
+.allprg .accordion-body ul{
+    list-style-type:decimal;
+}
+.allprg .accordion-body ul li a{
+    font-size: 17px;
+    text-decoration: none;
+}
+.scroll1img{
+    width: 370px;
+    height: 300px;
+    margin: 10px 0 20px 0;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đông Y & Huyền Môn học</title>
+    <link rel="icon" type="image/x-icon" href="..\Src img\part2-img.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="Liverdisease.css">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" style="font-size: 26px;">Thầy Lang Phước</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Đông Y & Y học Cổ truyền</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="..\..\News and articles\News.html">Tin tức & Bài viết</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scroll1">Về Đông Y và Huyền Học</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" id="SearchInput" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" id="SearchButton" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="allprg container-fluid">
+        <div class="prgnavbar col-4 col-xl-9 mb-5 mt-5">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      Mục lục & Các Bài viết
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                    <h5>Bệnh Gan và cách điều trị hiệu quả</h5>
+                      <ul>
+                        <li><a href="#scroll1">Các bệnh về Gan</a></li>
+                        <li><a href="#scroll2">Điều trị bệnh về Gan bằng Đông Y</a></li>
+                   <!-- <li><a>Dưỡng gan phục nguyên cao</a></li>
+                        <li><a>Đại bổ khí huyết cao</a></li>
+                        <li><a>Thập toàn đại bổ hoàn</a></li> -->
+                      </ul>   
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h1>Một số bài viết về Đông Y & phương pháp chữa bệnh</h1>
+        <div class="prg2 col-4 col-xl-8 mt-5 mb-5" id="scroll1">
+            <h2>Các bệnh về Gan</h2>
+            <p>Bệnh gan là một vấn đề sức khỏe quan trọng, ảnh hưởng đến chức năng cơ bản của cơ thể trong việc lọc máu, chuyển hóa chất béo và đào thải chất độc. Các bệnh lý liên quan đến gan có thể gây ra nhiều biến chứng nghiêm trọng nếu không được chẩn đoán và điều trị kịp thời.</p>
+            <div class="row">
+                <img src="scroll1-img1.jpg" class="scroll1-img1 col-4 col-xl-6">
+                <img src="scroll1-img2.jpg" class="scroll1-img2 col-4 col-xl-6">
+            </div>
+            
+            <h5>Các loại bệnh gan phổ biến</h5>
+            <ul>
+                <li>Viêm gan: Bao gồm viêm gan virus (như viêm gan B, C) và viêm gan do nhiễm trùng virus khác. Viêm gan có thể dẫn đến xơ gan và ung thư gan nếu không điều trị hiệu quả.</li>
+                <li>Xơ gan: Là quá trình sẹo hóa của gan do các tác nhân như rượu, virus viêm gan, béo phì và các bệnh lý khác. Xơ gan nếu không được can thiệp kịp thời có thể dẫn đến suy gan.</li>
+                <li>Máu trong gan: Bao gồm các bệnh lý như nang gan, sỏi gan và các vấn đề liên quan đến mạch máu trong gan.</li>
+                <li>Ung thư gan: Một trong những loại ung thư phổ biến và nguy hiểm nhất, thường không có triệu chứng rõ ràng ở giai đoạn đầu.</li>
+            </ul>
+            <h5>Triệu chứng của bệnh gan</h5>
+            <ul>
+                <li>Đau vùng gan.</li>
+                <li>Buồn nôn, mệt mỏi.</li>
+                <li>Suy giảm cân nặng.</li>
+                <li>Da và mắt vàng.</li>
+                <li>Chảy máu dạ dày hoặc dễ bầm tím.</li>
+                <li>Chảy máu bất thường.</li>
+            </ul>
+            <h5>Nguyên nhân của bệnh gan</h5>
+            <ul>
+                <li>Lạm dụng rượu, chất kích thích.</li>
+                <li>Lây nhiễm các virus gây viêm gan.</li>
+                <li>Dinh dưỡng kém hoặc béo phì.</li>
+                <li>Sử dụng thuốc không điều trị.</li>
+            </ul>
+        </div>
+        <div class="prg2 col-4 col-xl-8 mt-5 mb-5" id="scroll2">
+            <h2>Điều trị bệnh về Gan bằng Đông Y</h2>
+            <p>Đông Y đã được sử dụng từ lâu trong việc điều trị các bệnh về gan, bao gồm viêm gan, xơ gan và các vấn đề khác liên quan đến chức năng gan. Phương pháp này chú trọng đến việc cân bằng năng lượng trong cơ thể và thường sử dụng các thảo dược và phương pháp thủ công để hỗ trợ sự phục hồi của gan.</p>
+            <img src="scroll2-img1.jpg" class="scroll2-img1">
+            <h5>Các phương pháp Đông Y điều trị bệnh gan</h5>
+            <h5>1. Thảo dược:</h5>
+            <ul>
+                <li>Sâm đại hội (Panax ginseng): Có tác dụng bổ gan, giúp cân bằng năng lượng trong cơ thể.</li>
+                <li>Nhân sâm (Radix ginseng): Giúp tăng cường chức năng gan và lọc máu.</li>
+                <li>Hoàng kỳ (Radix Astragali): Bổ tỳ, bồi bổ và tăng cường chức năng gan.</li>
+                <li>Câu kỷ tử (Lycium barbarum): Bổ thận, giúp tăng cường sức đề kháng và bảo vệ gan.</li>
+                <li>Ngưu tất (Radix Rehmanniae): Làm mát gan, giúp hỗ trợ chức năng gan và thận.</li>
+            </ul>
+            <h5>2. Châm cứu và xoa bóp:</h5>
+            <ul>
+                <li>Châm cứu: Kích thích các huyệt đạo để cân bằng năng lượng trong cơ thể, giảm căng thẳng và kích thích chức năng gan.</li>
+                <li>Xoa bóp và bấm huyệt: Giúp thư giãn cơ bắp, tăng cường tuần hoàn máu và hỗ trợ chức năng gan.</li>
+            </ul>
+            <h5>3. Dinh dưỡng và lối sống:</h5>
+            <ul>
+                <li>Ăn uống lành mạnh, hạn chế đồ ăn nhiều chất béo và đường.</li>
+                <li>Đảm bảo cân bằng dinh dưỡng, bao gồm bổ sung đủ protein và các vitamin cần thiết cho gan.</li>
+            </ul>
+            <h5>4. Tuân thủ và kiên nhẫn:</h5>
+            <ul>
+                <li>Điều trị bệnh gan bằng phương pháp Đông Y đòi hỏi sự kiên nhẫn và thực hiện đều đặn. Việc tự điều trị hoặc không tuân thủ chỉ đạo từ chuyên gia có thể gây hại cho sức khỏe.</li>
+            </ul>
+            <h5>Lưu ý quan trọng</h5>
+            <p>Trước khi bắt đầu bất kỳ liệu pháp Đông Y nào, bạn nên tham khảo ý kiến ​​của bác sĩ chuyên khoa để đảm bảo an toàn và hiệu quả.</p>
+            <p>Kết hợp giữa phương pháp Đông Y và các phương pháp y học hiện đại là cách tiếp cận tối ưu nhất để điều trị bệnh gan và duy trì sức khỏe gan trong thời gian dài.</p>
+        </div>
+        
+    </div>
+  </div>
+</div>
+
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="Liverdisease.js"></script>
+</body>
+</html>

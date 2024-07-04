@@ -5,9 +5,3 @@ document.getElementById('SearchButton').addEventListener('click', function() {
         window.open(googleSearchUrl, '_blank');
     }
 });
-function goToAboutMyProducts(id) {
-    // Tạo URL đích với hash id
-    var url = "../Page3/aboutmyproducts.html#" + id;
-    // Chuyển hướng đến URL đích
-    window.location.href = url;
-}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đông Y & Huyền Môn học</title>
+    <link rel="icon" type="image/x-icon" href="..\Src img\part2-img.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="Kidneydisease.css">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" style="font-size: 26px;">Thầy Lang Phước</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Đông Y & Y học Cổ truyền</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="..\..\News and articles\News.html">Tin tức & Bài viết</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scroll1">Về Đông Y và Huyền Học</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" id="SearchInput" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" id="SearchButton" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="allprg container">
+        <div class="prgnavbar col-4 col-xl-9 mb-5 mt-5">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      Mục lục & Các Bài viết
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                    <h5>Bệnh về Thận và cách chữa khỏi bằng Đông Y</h5>
+                      <ul>
+                        <li><a href="#scroll5">Bệnh về thận</a></li>
+                        <li><a href="#scroll6">Các phương pháp điều trị bệnh về thận bằng Đông Y</a></li>
+                   <!-- <li><a>Dưỡng gan phục nguyên cao</a></li>
+                        <li><a>Đại bổ khí huyết cao</a></li>
+                        <li><a>Thập toàn đại bổ hoàn</a></li> -->
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h1>Một số bài viết về Đông Y & phương pháp chữa bệnh</h1>
+        <div class="prg2 col-4 col-xl-8 mt-5 mb-5" id="scroll5">
+            <h2>Bệnh về thận</h2>
+            <p>Bệnh về thận là một nhóm các bệnh lý ảnh hưởng đến chức năng của cơ quan quan trọng này trong việc lọc máu, điều hòa nước và các chất điện giải trong cơ thể. Các bệnh về thận có thể gây ra nhiều biến chứng nghiêm trọng nếu không được chẩn đoán và điều trị kịp thời.</p>
+            <div class="row container-fluid">
+                <img src="scroll5-img1.jpg" class="prg5-img1 col-3 col-xl-12 mb-4">
+                <img src="scroll5-img2.jpg" class="prg5-img1 col-3 col-xl-10">
+            </div>
+            <p>Các loại bệnh về thận:</p>
+            <h5>1. Suy thận cấp (AKI - Acute Kidney Injury):</h5>
+            <ul>
+                <li>Là sự suy giảm nhanh chóng của chức năng thận, thường do thiếu máu đột ngột, chấn thương, dị ứng hoặc sử dụng thuốc không phù hợp. Các triệu chứng có thể bao gồm giảm lượng nước tiểu, chán ăn, buồn nôn và mệt mỏi.</li>
+            </ul>
+            <h5>2. Suy thận mạn tính (CKD - Chronic Kidney Disease):</h5>
+            <ul>
+                <li>Là sự suy giảm dần dần của chức năng thận, thường do các bệnh lý như tiểu đường, cao huyết áp, viêm nhiễm mạn tính và sử dụng thuốc lâu dài. CKD có thể dẫn đến suy thận mãn tính và đòi hỏi điều trị định kỳ để duy trì chức năng thận.</li>
+            </ul>
+            <h5>3. Viêm thận (Nephritis):</h5>
+            <ul>
+                <li>Là sự viêm nhiễm của các bộ phận của thận, có thể do các bệnh lý khác nhau hoặc do tổn thương bệnh lý tự miễn dịch. Viêm thận có thể gây ra các triệu chứng như sưng mặt, tiểu nhiều và tiểu đêm.</li>
+            </ul>
+            <h5>4. Sỏi thận (Kidney Stones):</h5>
+            <ul>
+                <li>Là các cục sỏi hình thành trong niệu quản, có thể gây ra đau cực độ và khó chịu khi đi tiểu. Nguyên nhân có thể là do lượng muối canxi cao trong nước tiểu hoặc do các yếu tố di truyền.</li>
+            </ul>
+            <h5>5. Ung thư thận (Kidney Cancer):</h5>
+            <ul>
+                <li>Là một loại ung thư phát triển từ các tế bào của thận. Các triệu chứng sớm thường không rõ ràng, và ung thư thận thường được phát hiện ở giai đoạn muộn khi đã lan sang các cơ quan khác.</li>
+            </ul>
+        </div>
+        <div class="prg2 col-4 col-xl-8 mt-5 mb-5" id="scroll6">
+            <h2>Các phương pháp điều trị bệnh về thận bằng Đông Y</h2>
+            <img src="scroll6-img1.jpg" class="prg6-img1 col-4 col-xl-11">
+            <h5>1. Thảo dược:</h5>
+            <ul>
+                <li>Đậu phộng (Hoài sơn): Giúp làm mát thận, giải độc, điều hòa chức năng thận.</li>
+                <li>Tử nhuệ (Diệp hạ châu): Có tác dụng lợi tiểu, giảm sưng, cải thiện chức năng thận.</li>
+                <li>Thục địa (Đương quy): Bổ thận, cân bằng năng lượng cơ thể, hỗ trợ chữa lành các tổn thương thận.</li>
+                <li>Ngưu tất (Địa hoàng): Bổ thận, giúp điều hòa lưu thông khí huyết.</li>
+            </ul>
+            <h5>2. Châm cứu và xoa bóp:</h5>
+            <ul>
+                <li>Châm cứu: Kích thích các huyệt đạo liên quan đến thận để điều hòa năng lượng và cải thiện chức năng thận.</li>
+                <li>Xoa bóp và bấm huyệt: Giúp thư giãn cơ bắp, cải thiện tuần hoàn máu và hỗ trợ chức năng thận.</li>
+            </ul>
+            <h5>3. Dinh dưỡng và lối sống:</h5>
+            <ul>
+                <li>Giữ cho cân nặng ở mức hợp lý và tránh thực phẩm giàu đạm.</li>
+                <li>Đảm bảo cân bằng nước và chế độ ăn uống lành mạnh.</li>
+            </ul>
+            <h5>Lưu ý quan trọng</h5>
+            <ul>
+                <li>Việc sử dụng Đông Y để điều trị các bệnh về thận nên được thực hiện dưới sự giám sát của các chuyên gia y tế có chuyên môn.</li>
+                <li>Kết hợp giữa phương pháp Đông Y và các phương pháp y học hiện đại là cách tiếp cận tối ưu nhất để điều trị và quản lý bệnh về thận.</li>
+            </ul>
+            <p>Việc chăm sóc và điều trị sớm các bệnh về thận là rất quan trọng để ngăn ngừa các biến chứng nghiêm trọng và cải thiện chất lượng cuộc sống của người bệnh.</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="Kidneydisease.js"></script>
+</body>
+</html>

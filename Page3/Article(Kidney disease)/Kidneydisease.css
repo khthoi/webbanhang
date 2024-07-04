@@ -1,0 +1,32 @@
+.allprg{
+    margin-top: 40px;
+}
+.prg1{
+    text-align: justify;
+}
+.illustimage{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 25px 0;
+}
+.prg5-img1{
+    width: 424px;
+    height: 488px;
+}
+.prg6-img1{
+    width: 404px;
+    height: 490px;
+    margin: 6px 0 12px 0;
+}
+.allprg .accordion-body ul{
+    list-style-type:decimal;
+}
+.allprg .accordion-body ul li a{
+    font-size: 17px;
+    text-decoration: none;
+}
+.scroll1img{
+    width: 370px;
+    height: 300px;
+    margin: 10px 0 20px 0;
+}
